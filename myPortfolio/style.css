@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://wallpaperaccess.com/full/1579984.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* What kind of selector is this? */
+  .logo {
+    width: 250px;
+    height: 250px;
+    margin: 3% 10%;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+  }
+ {
+
+}
+
+  main {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+  }
+
+  /* This is an element within and element selector */ 
+  nav > a {
+    margin: 2% 1% 3%;
+    height: 10%;
+    width: 15%;
+    color: goldenrod;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border-radius: 25px;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    border: 8px solid black;
+  }
+
+  .has-border {
+    border-radius: 25px;
+    border: 8px solid goldenrod;
+    background-color: black;
+    padding: 20px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 2%;
+  }
+  /* This is an ID selector */
+  #profile-pic {
+    width: 250px;
+    height: 350px;
+    border-radius: 10% / 50%;
+    margin: 15% auto;
+    grid-column: 2/3;
+    
+  }
+
+  h1 {
+    color: teal;
+    grid-column: 2/3;
+    margin: 10% auto;
+    border: 10px solid gold;
+    background-color: gold;
+    border-style: outset;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  h2 {
+    grid-column: 2/3;
+    margin: 3% auto;
+    font-style: italic;
+    text-decoration-line: underline;
+    text-decoration-color: bisque;
+    color:bisque;
+    text-size-adjust: 30%;
+  }
+
+  .small-text {
+    grid-column: 2/3;
+    color: rgb(233, 14, 14);
+    font-size: 10px;
+    margin: 3% auto;
+    text-align: start;
+  }
+
+  button {
+    grid-column: 2/3;
+    margin: 3% auto;
+    width: 45%;
+    height: 55%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    border-radius: 25px;
+    background: transparent;
+    padding: 20px;
+    padding-bottom: 5%;
+    text-align: auto;
+    color: goldenrod;
+    letter-spacing: 10px;
+    font-style: italic;
+    font-weight: bolder;
+  }
